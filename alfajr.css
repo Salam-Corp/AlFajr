@@ -1,0 +1,67 @@
+
+*,
+*:before,
+*:after{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(32, 15, 15, 0.6);
+    position: fixed;
+    top: 0;
+    padding: 25px 35px;
+    backdrop-filter: blur (8px) ;
+    box-shadow: 0 20px 30px rgba(0,0,0,0.15);
+   
+}
+
+
+
+header{
+    height: 50%;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.navbar{
+    display: inline-flex;
+    width: 100dvw;
+    
+}
+
+.navbar ul{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    float: right;
+  
+
+}
+
+.navbar ul li{
+    display: inline-block;
+
+  
+}
+nav a{
+    color: #ffffff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 25px;
+  
+    text-align: right;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.Featured-Products{
+    margin-top: 50px;
+}

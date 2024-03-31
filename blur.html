@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blur.css">
+</head>
+<body>
+   <div class="container" id="blur">
+    <div class="content">
+        <h2>Lorem amdoit jucbtnm</h2>
+        <img src="images/diffuser oil.jpg" width="300px">
+        <a href="#" onclick="toggle()">Details</a>
+    </div>
+   </div>
+
+   <div id="popup">
+    <h2>Hello world</h2>
+    <img src="images/diffuser oil.jpg" width="300px">
+    <p>lorem tabla teesy cheesy lemonqueasdt</p>
+
+    <a href="#" onclick="toggle()">Close</a>
+    <a href="cart.html" onclick="toggle()">Add to Cart</a>
+   </div>
+
+   <script>
+    function toggle(){
+        var blur = document.getElementById('blur');
+        blur.classList.toggle('active');
+        var popup = document.getElementById('popup');
+        popup.classList.toggle('active');
+    }
+   </script>
+</body>
+</html>
